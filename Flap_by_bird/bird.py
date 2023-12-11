@@ -1,6 +1,6 @@
 # bird.py
 import pygame
-from settings import import_sprite
+from setting import import_sprite
 
 class Bird(pygame.sprite.Sprite):
     def __init__(self, pos, size):
